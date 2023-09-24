@@ -1,16 +1,12 @@
 package wjhs;
 import java.util.Scanner;
 
-
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
         Scanner opcion = new Scanner(System.in);
+        String nombre;
 
         System.out.println( "Laboratorio 1." );
         System.out.println("--------------------------------");
@@ -21,12 +17,16 @@ public class App
         int menu = opcion.nextInt();
         switch (menu){
             case 1:
-
+                
             break;
             case 2:
+            System.out.println("Escriba el nombre de la persona en minusculas");
+            nombre = opcion.nextLine();
 
             break;
             case 3:
+            System.out.println("Escriba el nombre de la persona en minusculas");
+            nombre = opcion.nextLine();
 
             break;
             default:
